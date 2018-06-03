@@ -2,7 +2,7 @@
   "name": "insta-quote",
   "version": "1.0.0",
   "description": "Quotes for bucket three project",
-  "main": "app.js",
+  "main": ".js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
@@ -12,7 +12,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC"
