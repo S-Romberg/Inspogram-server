@@ -9,8 +9,7 @@
     "express": "^4.16.3",
     "knex": "^0.14.6",
     "morgan": "^1.9.0",
-    "pg": "^7.4.3",
-    "npm": "5.7.1"
+    "pg": "^7.4.3"
   },
   "devDependencies": {},
   "scripts": {
