@@ -2,7 +2,7 @@
   "name": "insta-quote",
   "version": "1.0.0",
   "description": "Quotes for bucket three project",
-  "main": "knexfile.js",
+  "main": "app.js",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
