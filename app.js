@@ -8,7 +8,7 @@ const quotes = require("./routes/insta-quotes");
 app.use(morgan('dev'));
 app.use(bodyParser.json());
 
-app.use("/insta-quotes", quotes);
+app.use("./routes/insta-quotes", quotes);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
