@@ -1,0 +1,19 @@
+{
+  "name": "insta-quote",
+  "version": "1.0.0",
+  "description": "Quotes for bucket three project",
+  "main": "knexfile.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "knex": "^0.14.6",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
