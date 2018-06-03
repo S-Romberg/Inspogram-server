@@ -1,6 +1,7 @@
 exports.up = function (knex, Promise){
     return knex.schema.createTable('create_quote', (table) => {
         table.increments('id')
+        table.string('category')
         table.string('quote')
         table.string('author')
 })
