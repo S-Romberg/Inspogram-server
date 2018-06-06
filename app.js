@@ -5,6 +5,7 @@ const morgan = require("morgan");
 const app = express();
 
 const quotes = require("./routes/insta-quotes");
+const images = require("./routes/insta-images")
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
@@ -16,6 +17,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 app.use("/insta-quotes", quotes);
+app.use("/insta-images", images);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
