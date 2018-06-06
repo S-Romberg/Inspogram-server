@@ -1,4 +1,4 @@
-const database = require("./database-connection");
+const database = require("../database-connection");
 
 module.exports = {
     list(){
