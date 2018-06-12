@@ -15,8 +15,7 @@ exports.seed = function(knex, Promise) {
         {id: 9, category: "Travel", quote: "Not until we are lost do we begin to understand ourselves.", author: "Henry David Thoreau"},
         {id: 10, category: "Travel", quote: "Like all great travellers, I have seen more than I remember, and remember more than I have seen.", author: "Benjamin Disraeli"},
         {id: 11, category: "Travel", quote: "Twenty years from now you will be more disappointed by the things you didn't do than by the ones you did. So throw off the bowlines, sail away from the safe harbor. Catch the trade winds in you sail. Explore. Dream. Discover.", author: "Mark Twain"},
-        {id: 12, category: "Any", quote: "Two roads diverged in a wood and I – I took the one less travelled by.", author: "Robert Frost"}
-        
+        {id: 12, category: "Any", quote: "Two roads diverged in a wood and I – I took the one less travelled by.", author: "Robert Frost"}     
       ]);
     });
 };
