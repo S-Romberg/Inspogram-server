@@ -14,6 +14,6 @@ module.exports = {
         return database('image_table').update(image_table).where('id', id).returning('*').then(record => record[0])
     },
     delete(id){
-        return database('image_table').del()
+        return database('image_table').where('id', id).del()
     }
 };
