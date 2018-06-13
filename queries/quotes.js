@@ -14,6 +14,6 @@ module.exports = {
         return database('create_quote').update(create_quote).where('id', id).returning('*').then(record => record[0])
     },
     delete(id){
-        return database('create_quote').del()
+        return database('create_quote').where('id', id).del()
     }
 };
