@@ -3,6 +3,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const app = express();
+const cors = require('cors')
 
 const quotes = require("./routes/insta-quotes");
 const images = require("./routes/insta-images")
