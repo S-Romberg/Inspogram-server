@@ -8,11 +8,7 @@ const cors = require('cors')
 const quotes = require("./routes/insta-quotes");
 const images = require("./routes/insta-images")
 
-app.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    next();
-  });
+app.use(cors())
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
