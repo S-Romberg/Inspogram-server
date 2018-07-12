@@ -19,7 +19,7 @@ router.get("/:id", (request, response, next) => {
 
 router.post("/", (request, response, next) => {
     queries.create(request.body).then(quote => {
-        response.status(201).json({quote: quote});
+        response.status(201).json({quote});
     }).catch(next);
 });
 
@@ -31,7 +31,7 @@ router.delete("/:id", (request, response, next) => {
 
 router.put("/:id", (request, response, next) => {
     queries.update(request.params.id, request.body).then(quote => {
-        response.json({quote: quote[0]});
+        response.json({quote});
     }).catch(next);
 });
 
